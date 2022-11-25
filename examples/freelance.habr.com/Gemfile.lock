@@ -1,0 +1,25 @@
+PATH
+  remote: ../..
+  specs:
+    simple_gmail (0.0.0)
+      mail
+      nakischema
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.0.1)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    mini_mime (1.1.2)
+    nakischema (0.2.0)
+
+PLATFORMS
+  x86_64-darwin-18
+
+DEPENDENCIES
+  byebug
+  simple_gmail!
+
+BUNDLED WITH
+   2.3.21
